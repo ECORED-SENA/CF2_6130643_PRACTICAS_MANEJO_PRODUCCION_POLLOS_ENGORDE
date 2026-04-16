@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Control y verificación de las actividades de manejo en producción de pollo de engorde',
+    Description:
+      'El manejo en la producción de pollos de engorde integra prácticas técnicas de control, bioseguridad, bienestar animal y monitoreo ambiental para garantizar la sanidad, productividad y cumplimiento normativo, mediante la verificación constante de actividades y el análisis de parámetros productivos',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
