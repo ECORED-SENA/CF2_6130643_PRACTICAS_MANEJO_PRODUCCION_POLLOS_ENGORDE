@@ -18,7 +18,7 @@
         figure
           img(src="@/assets/curso/intro/img2.png", data-aos="zoom-in" style="max-width: 458px")
       .col-lg-7
-        .row.align-items-start.mb-3.bg-color-7.p-3(data-aos="fade-left")
+        .row.align-items-start.mb-3.bg-color-3.p-3(data-aos="fade-left")
           .col-lg
           p.mb-0 El curso tiene como objetivo fortalecer la capacidad de controlar el desarrollo de las actividades de manejo y verificar su correcta ejecución, de acuerdo con criterios técnicos establecidos. Asimismo, promueve la implementación de buenas prácticas avícolas, el cumplimiento de medidas de bioseguridad, el análisis de parámetros productivos y la toma de decisiones basadas en datos
         .row.align-items-start.mb-10(data-aos="fade-left")  
@@ -26,13 +26,6 @@
             img.d-none.d-lg-flex(src="@/assets/curso/intro/icono.svg", style="max-width: 90px").mx-auto
           .col-lg
             p(data-aos="fade-left") De esta manera, se busca formar profesionales capaces de garantizar la sanidad, el bienestar animal y la productividad, contribuyendo al cumplimiento de la normatividad vigente y al mejoramiento continuo del sistema productivo avícola.
-        
-
-
-        
-
-
-
 </template>
 
 <script>
