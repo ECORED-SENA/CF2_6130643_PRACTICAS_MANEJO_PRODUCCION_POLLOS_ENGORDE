@@ -37,13 +37,53 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Controlar el desarrollo de las actividades de manejo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Plan de mejoramiento: acciones preventivas y correctivas',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Manejo ambiental: control y seguimiento',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Condiciones ambientales: monitoreo',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Densidad de aves: ajuste técnico',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Control del estado y comportamiento de las aves',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Protocolos: concepto y aplicación',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Cálculo de parámetros de producción',
+            hash: 't_1_7',
+          },
+          {
+            numero: '1.8',
+            titulo: 'Reporte de novedades y contingencias',
+            hash: 't_1_8',
+          },
+          {
+            numero: '1.9',
+            titulo: 'Seguridad y Salud en el Trabajo (SST) en el control',
+            hash: 't_1_9',
           },
         ],
       },
@@ -51,14 +91,60 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Verificar la ejecución de las actividades de manejo',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Contingencias: tipos y características',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Protocolos: cumplimiento',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Buenas prácticas avícolas y bienestar animal verificación',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Registro y control de procesos',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Evaluación de parámetros productivos',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Seguridad y Salud en el Trabajo (SST) en la verificación',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Manejo de residuos y condiciones sanitarias',
+            hash: 't_2_7',
+          },
+          {
+            numero: '2.8',
+            titulo: 'Manejo operativo de aves',
+            hash: 't_2_8',
+          },
+          {
+            numero: '2.9',
+            titulo: 'Verificación del proceso de transporte',
+            hash: 't_2_9',
+          },
+          {
+            numero: '2.10',
+            titulo: 'Sistemas de bioseguridad',
+            hash: 't_2_10',
+          },
+        ],
       },
     ],
     subMenu: [
