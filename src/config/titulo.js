@@ -1,1 +1,2 @@
-module.exports = 'Manejo técnico y productivo del pollo de engorde.'
+module.exports =
+  'Control y verificación de las actividades de manejo en producción de pollo de engorde'
