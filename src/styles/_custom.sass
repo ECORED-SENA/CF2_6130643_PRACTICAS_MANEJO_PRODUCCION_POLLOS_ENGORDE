@@ -53,19 +53,14 @@ figcaption
     background-color: #FCE9D4 !important
   &-5
     background-color: #96D6D6 !important
-
-
-
-
-
-
-
   &-6
-    background-color: #4A6A6A !important
+    background-color: #FFF4E9 !important
   &-7
-    background-color: #D5EFEF !important
+    background-color: #F3FAFA !important
   &-8
-    background-color: #FFC94A !important
+    background-color: #F11F1F !important
+
+  
   &-9
     background-color: #FFF4DA !important
   &-10
@@ -241,25 +236,33 @@ figcaption
   font-weight: bold
 
 
-/*Tablas*/
-.tabla-a.color-acento-botones thead
-  border-color: $color-acento-contenido
-  background-color: $color-acento-contenido !important
-.tabla-a th, table td 
-  text-align: start
-.separador__tabla
-  background-color: #F6F6F6
-.tabla-a 
-  overflow-x: visible !important; 
+/* Tablas */
 
 .tabla-a
+  overflow-x: auto !important 
+  -webkit-overflow-scrolling: touch
+  
   table
+    min-width: 600px 
+    table-layout: auto
+    
+    thead
+      border-color: $color-acento-contenido
+      background-color: $color-acento-contenido !important
+      
+    th, td
+      text-align: start
+      padding: 15px 
+      
     tbody
       tr:nth-child(odd)
         background-color: #F6F6F6
       tr:nth-child(even)
-        background-color: #FFFFFF 
-/*Tablas*/
+        background-color: #FFFFFF
+
+.separador__tabla
+  background-color: #F6F6F6
+/* Tablas */
 
 /*Audio*/
 .bg-custom-teal
@@ -281,7 +284,7 @@ figcaption
   font-weight: bold
 
 .tabs-c__content-item
-  background-color: #EAF7F7
+  background-color: #FFF4E9
   padding: 2rem
 
 .tabs-c
@@ -297,3 +300,66 @@ figcaption
 
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
   background-color: #F11F1F
+
+
+
+.w-buttons
+  min-width: 160px
+  text-align: center
+  justify-content: center 
+
+@media (max-width: $bp-max-md)
+  .w-buttons
+    width: 100%
+
+
+.card-custom
+  display: flex
+  align-items: center
+  position: relative
+  padding-left: 40px // Espacio para que el ícono sobresalga
+  height: 100%
+
+  &__side-icon
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+    width: 80px
+    height: 75px
+    background-color: #FFD947 // El amarillo de tu diseño
+    // Forma de "hoja": esquina sup-izq, sup-der, inf-der, inf-izq
+    border-radius: 20px 0px 20px 40px 
+    display: flex
+    align-items: center
+    justify-content: center
+    z-index: 2
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1)
+
+    img
+      width: 45px
+      height: auto
+
+  &__content
+    background-color: #FFFFFF
+    width: 100%
+    padding: 20px 20px 20px 55px // Espacio interno para no pisar el ícono
+    border-radius: 20px
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05)
+    min-height: 85px
+    display: flex
+    align-items: center
+    z-index: 1
+
+// Ajuste responsive para que no se vea apretado en tablets
+@media (max-width: 1199px)
+  .card-custom
+    padding-left: 35px
+    &__side-icon
+      width: 70px
+      height: 65px
+      img
+        width: 35px
+    &__content
+      padding-left: 45px
+
