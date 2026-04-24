@@ -166,11 +166,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -202,14 +197,138 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Ambiente',
+      significado:
+        'Condiciones físicas que influyen en el bienestar y producción de las aves.',
+    },
+    {
+      termino: 'Amoníaco',
+      significado:
+        'Gas generado por la descomposición de la materia orgánica que afecta la salud respiratoria de las aves.',
+    },
+    {
+      termino: 'Bienestar animal',
+      significado:
+        'Condiciones que garantizan la salud, el confort y el comportamiento natural de las aves.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado:
+        'Medidas para prevenir el ingreso y propagación de enfermedades en la granja.',
+    },
+    {
+      termino: 'Cama',
+      significado:
+        'Material utilizado en el piso del galpón que absorbe humedad y contribuye al confort de las aves.',
+    },
+    {
+      termino: 'Contingencia',
+      significado:
+        'Evento inesperado que afecta el desarrollo normal del proceso productivo.',
+    },
+    {
+      termino: 'Conversión alimenticia',
+      significado:
+        'Relación entre la cantidad de alimento consumido y el peso ganado por las aves.',
+    },
+    {
+      termino: 'Densidad',
+      significado:
+        'Número de aves o kilogramos por metro cuadrado dentro del galpón.',
+    },
+    {
+      termino: 'Engorde',
+      significado:
+        'Etapa productiva enfocada en el crecimiento y la ganancia de peso del pollo.',
+    },
+    {
+      termino: 'EPP',
+      significado:
+        'Elementos de protección personal utilizados para prevenir riesgos laborales.',
+    },
+    {
+      termino: 'Manejo',
+      significado: 'Conjunto de prácticas aplicadas en la producción avícola.',
+    },
+    {
+      termino: 'Monitoreo',
+      significado:
+        'Seguimiento constante de variables productivas, sanitarias y ambientales.',
+    },
+    {
+      termino: 'Mortalidad',
+      significado: 'Porcentaje de aves que mueren durante el ciclo productivo.',
+    },
+    {
+      termino: 'Protocolo',
+      significado:
+        'Procedimiento establecido para realizar una actividad de forma estandarizada.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Seguimiento del proceso productivo mediante registros y control de información.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Federación Nacional de Avicultores de Colombia (FENAVI). (2024). Cartilla de gestión y optimización de unidades productivas de pollo de engorde. FENAVI.',
+      link: 'https://fenavi.org',
+    },
+    {
+      referencia:
+        'Federación Nacional de Avicultores de Colombia (FENAVI). (s.f.). Programa pollo y normativa avícola en Colombia. FENAVI.',
+      link: 'https://fenavi.org/normativa-programa-pollo/',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2014). Resolución 3652 de 2014. Por la cual se establecen los requisitos para la certificación de granjas avícolas bioseguras de engorde y se dictan otras disposiciones. ICA.',
+      link:
+        'https://www.ica.gov.co/normatividad/normas-ica/resoluciones-oficinas-nacionales/2014/2014r3652',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2020). Resolución 002536 de 2020. Por la cual se establecen disposiciones sobre bienestar animal en la producción pecuaria. ICA.',
+      link:
+        'https://www.ica.gov.co/areas/pecuaria/servicios/inocuidad-en-las-cadenas-agroalimentarias.aspx',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2021). Resolución 90464 de 2021. Por la cual se establecen disposiciones para el registro sanitario de predio pecuario (RSPP). ICA.',
+      link: 'https://www.ica.gov.co/normatividad',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2025). Plan nacional subsectorial de vigilancia y control de residuos de medicamentos veterinarios en pollo de engorde. ICA.',
+      link: 'https://www.ica.gov.co',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2007). Decreto 1500 de 2007. Por el cual se establece el sistema oficial de inspección, vigilancia y control de la carne y productos cárnicos comestibles. Gobierno de Colombia.',
+      link: 'https://www.minsalud.gov.co',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2013). Resolución 242 de 2013. Por la cual se establecen los requisitos sanitarios para el funcionamiento de plantas de beneficio de aves. Gobierno de Colombia.',
+      link: 'https://www.minsalud.gov.co',
+    },
+    {
+      referencia:
+        'National Research Council (NRC). (1994). Nutrient requirements of poultry (9th rev. ed.). National Academy Press.',
+      link:
+        'https://www.msdvetmanual.com/pt/poultry/nutrition-and-management-poultry/nutritional-requirements-of-poultry',
+    },
+    {
+      referencia:
+        'Organización Mundial de Sanidad Animal (WOAH). (2024). Código sanitario para los animales terrestres: Bienestar animal en aves de corral. WOAH.',
+      link:
+        'https://www.woah.org/fileadmin/Home/esp/Health_standards/tahc/current/chapitre_aw_broiler_chicken.pdf',
+    },
+    {
+      referencia:
+        'Solla S.A. (s.f.). Manual de manejo para pollo de engorde. Solla.',
+      link: 'https://www.solla.com',
     },
   ],
   creditos: [

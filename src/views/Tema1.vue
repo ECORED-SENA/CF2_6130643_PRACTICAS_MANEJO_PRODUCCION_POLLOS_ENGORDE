@@ -777,62 +777,62 @@
         #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.6	Protocolos: concepto y aplicación
     p(data-aos="fade-right") Los protocolos son procedimientos estandarizados que orientan las actividades en la producción avícola, garantizando uniformidad, trazabilidad, bioseguridad y cumplimiento normativo, en áreas como alimentación, limpieza, manejo sanitario y control ambiental. A continuación, se detallarán los aspectos fundamentales.
-        //- Slideshow
+    //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
-            .p-4.p-md-5
-              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema1/slide03_1.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Aplicación de protocolos establecidos
-                    p La aplicación de protocolos consiste en seguir procedimientos definidos para realizar las actividades de forma uniforme y controlada, incluyendo alimentación, limpieza, bioseguridad, vacunación y control ambiental.
-                    p El proceso implica identificar la actividad, aplicar el protocolo, ejecutar, registrar y verificar su cumplimiento.
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema1/slide03_2.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Importancia de los protocolos
-                    p Los protocolos son esenciales porque:
-                    ul.lista-ul.mb-0
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Garantizan la calidad del proceso productivo. 
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Reducen errores humanos. 
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Facilitan la capacitación del personal. 
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Permiten el cumplimiento de normativas sanitarias. 
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Mejoran la trazabilidad y control.
-                .row.align-items-center.p-4.p-md-5
-                  .col-lg-5.order-2
-                    figure
-                      img(src="@/assets/curso/tema1/slide03_3.png")
-                  .col-lg-7.order-1.mb-3.mb-lg-0
-                    h4 Estandarización de procesos
-                    p La estandarización consiste en unificar criterios y procedimientos para que todas las actividades se ejecuten de la misma forma, independientemente del operario.
-                    h5 Beneficios de la estandarización
-                    ul.lista-ul.mb-0
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Mayor eficiencia productiva.
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Reducción de variabilidad.
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Mejor control sanitario.
-                      li.d-flex
-                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Facilita auditorías.
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/slide03_1.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Aplicación de protocolos establecidos
+              p La aplicación de protocolos consiste en seguir procedimientos definidos para realizar las actividades de forma uniforme y controlada, incluyendo alimentación, limpieza, bioseguridad, vacunación y control ambiental.
+              p El proceso implica identificar la actividad, aplicar el protocolo, ejecutar, registrar y verificar su cumplimiento.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/slide03_2.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Importancia de los protocolos
+              p Los protocolos son esenciales porque:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Garantizan la calidad del proceso productivo. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Reducen errores humanos. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Facilitan la capacitación del personal. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Permiten el cumplimiento de normativas sanitarias. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Mejoran la trazabilidad y control.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema1/slide03_3.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              h4 Estandarización de procesos
+              p La estandarización consiste en unificar criterios y procedimientos para que todas las actividades se ejecuten de la misma forma, independientemente del operario.
+              h5 Beneficios de la estandarización
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Mayor eficiencia productiva.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Reducción de variabilidad.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Mejor control sanitario.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  span.ms-2 Facilita auditorías.
     //- Fin Slideshow
     Separador
     //- Inicio Tema1.7
