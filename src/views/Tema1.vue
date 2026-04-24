@@ -725,9 +725,251 @@
           img(src="@/assets/curso/tema1/img5.svg", data-aos="zoom-in", style="width: 80px").mx-auto
       .col-lg-11.mb-0.d-flex.align-items-center
         p.mb-0 Una densidad adecuada favorece el bienestar animal, el acceso a recursos y el confort de las aves. Además, permite cumplir la normatividad, facilita la comercialización y fortalece la toma de decisiones para un manejo eficiente.
-
-
-
+    Separador
+    //- Inicio Tema1.5
+    .row.mt-5
+        #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.5	Control del estado y comportamiento de las aves
+    .row.mb-10
+      .col-lg-7
+        .row.align-items-start.mb-10(data-aos="fade-left")  
+          p(data-aos="fade-left") El control del estado y comportamiento de las aves permite evaluar su salud, bienestar y manejo mediante observación y análisis de indicadores, facilitando la detección temprana de problemas y la toma de decisiones oportunas. 
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg.bg-color-3.p-4
+            p.mb-0 En el presente apartado se conocerá la verificación del comportamiento, la evaluación del estado sanitario y las acciones de intervención.   
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img13.png", data-aos="zoom-in" style="max-width: 458px") 
+    //- Pestanas horizontales
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
+        TabsC.color-acento-contenido.mt-1
+          .py-3.py-md-4(titulo="Verificación del comportamiento")
+            .row
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/pestana02_1.png')
+              .col-md-7.mb-4.mb-md-0
+                h4 Verificación del comportamiento
+                p La verificación del comportamiento se basa en la observación de la distribución, actividad y consumo de las aves para identificar su estado sanitario y ambiental.
+                p Indicadores como agrupamiento, jadeo o baja actividad permiten detectar problemas. Este proceso incluye observación, análisis, detección de desviaciones y reporte.
+          .py-3.py-md-4(titulo="Evaluación del estado sanitario")
+            .row
+              .col-md-5.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/pestana02_2.png')
+              .col-md-7
+                h4 Evaluación del estado sanitario
+                p La evaluación sanitaria permite determinar la salud del lote mediante observación clínica, análisis de registros y monitoreo de indicadores productivos como mortalidad, consumo, ganancia de peso y conversión alimenticia.
+                p Signos como secreciones, diarrea, cojeras o pérdida de apetito alertan problemas. El proceso incluye observación, registro, análisis, diagnóstico e intervención.
+          .py-3.py-md-4(titulo="Acciones de intervención")
+            .row
+              .col-md-5.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/pestana02_3.png')
+              .col-md-7
+                h4 Acciones de intervención
+                p Las acciones de intervención se aplican ante alteraciones en el comportamiento o estado sanitario de las aves, con el fin de corregir problemas y evitar su propagación, mediante ajustes en ventilación, temperatura, manejo, alimentación o atención veterinaria.
+                p El proceso incluye detectar, registrar, analizar, intervenir y verificar resultados. Estas acciones permiten prevenir enfermedades, mejorar el bienestar, optimizar la productividad y fortalecer la toma de decisiones.
+    //- Pestanas horizontales
+    Separador
+    //- Inicio Tema1.6
+    .row.mt-5
+        #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.6	Protocolos: concepto y aplicación
+    p(data-aos="fade-right") Los protocolos son procedimientos estandarizados que orientan las actividades en la producción avícola, garantizando uniformidad, trazabilidad, bioseguridad y cumplimiento normativo, en áreas como alimentación, limpieza, manejo sanitario y control ambiental. A continuación, se detallarán los aspectos fundamentales.
+        //- Slideshow
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide03_1.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Aplicación de protocolos establecidos
+                    p La aplicación de protocolos consiste en seguir procedimientos definidos para realizar las actividades de forma uniforme y controlada, incluyendo alimentación, limpieza, bioseguridad, vacunación y control ambiental.
+                    p El proceso implica identificar la actividad, aplicar el protocolo, ejecutar, registrar y verificar su cumplimiento.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide03_2.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Importancia de los protocolos
+                    p Los protocolos son esenciales porque:
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Garantizan la calidad del proceso productivo. 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Reducen errores humanos. 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Facilitan la capacitación del personal. 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Permiten el cumplimiento de normativas sanitarias. 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Mejoran la trazabilidad y control.
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema1/slide03_3.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Estandarización de procesos
+                    p La estandarización consiste en unificar criterios y procedimientos para que todas las actividades se ejecuten de la misma forma, independientemente del operario.
+                    h5 Beneficios de la estandarización
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Mayor eficiencia productiva.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Reducción de variabilidad.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Mejor control sanitario.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Facilita auditorías.
+    //- Fin Slideshow
+    Separador
+    //- Inicio Tema1.7
+    .row.mt-5
+        #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.7	Cálculo de parámetros de producción
+    p(data-aos="fade-right") El cálculo de parámetros productivos permite evaluar el desempeño del lote y tomar decisiones técnicas basadas en datos. La fundamentación básica se detalla a continuación:
+    //- Accordeon Pasos
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
+      .row.justify-content-center.align-items-center
+        .col-lg-8.mb-4.mb-lg-0          
+          LineaTiempoD.color-primario
+            .row(numero="1" titulo="Parámetros productivos básicos")
+              .col-md-12.mb-4.mb-md-0
+                p Los parámetros productivos básicos en pollos de engorde permiten evaluar el desempeño del sistema mediante indicadores como la mortalidad, que refleja el porcentaje de aves muertas; la ganancia de peso, que mide el crecimiento; el consumo de alimento, que indica la cantidad ingerida; la conversión alimenticia, que relaciona alimento y peso ganado; y el índice de eficiencia, que evalúa el rendimiento global del lote.              
+            .row(numero="2" titulo="Métodos de cálculo")              
+              .col-md-12
+                p A continuación, los principales cálculos:
+                p Mortalidad (%)
+                figure.ps-md-5.mb-3
+                  img(src="@/assets/curso/tema1/formula1.svg",  style="max-width: 370px")
+                p Conversión alimenticia (CA)
+                figure.ps-md-5
+                  img(src="@/assets/curso/tema1/formula2.svg", style="max-width: 250px")
+            .row(numero="3" titulo="Interpretación de resultados")
+              .col-md-12
+                p La interpretación de los parámetros productivos permite evaluar el sistema. Alta mortalidad indica problemas sanitarios; conversión alta, baja eficiencia; bajo peso, manejo inadecuado; y consumo bajo, posible estrés o enfermedad.
+        .col-8.col-lg-4
+          figure
+            img(src="@/assets/curso/tema1/img15.png")
+    //- Fin Accordeon Pasos
+    Separador
+    //- Inicio Tema1.8
+    .row.mt-5
+        #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.8	Reporte de novedades y contingencias
+    p(data-aos="fade-right") El reporte de novedades es un proceso fundamental para la comunicación efectiva dentro de la granja, permitiendo registrar y actuar frente a situaciones anormales. Dentro de este marco, se analizarán los tipos de novedades, el manejo de contingencias y los canales de reporte.
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+      .row.justify-content-center
+        .col-lg-3 
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/img16.png", alt="").img400.m-auto
+        .col-lg-9
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="Tipos de novedades")
+                p.mb-4 Las novedades se clasifican en:    
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 <b>Sanitaria:</b> enfermedades, mortalidad.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 <b>Ambiental:</b> temperatura inadecuada. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 <b>Operativa:</b> fallas en equipos. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 <b>Alimenticia:</b> falta de alimento o agua.
+            .row(titulo="Manejo de contingencias")
+                p.mb-4 El manejo de contingencias consiste en responder rápidamente a eventos inesperados mediante detección, evaluación, acción, reporte y seguimiento. Ejemplos incluyen activar planta eléctrica, aislar lotes o ajustar la ventilación.
+            .row(titulo="Canales de reporte")
+                p.mb-4 Los reportes deben realizarse mediante canales definidos:
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 Registro en formatos físicos o digitales. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 Comunicación al encargado o veterinario. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 Reporte a sistemas de trazabilidad. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    span.ms-2 Notificación a entidades si aplica.
+      //- Fin Accordion
+    .row.bg-color-1
+      .col-12
+        .p-5      
+          Separador
+          //- Inicio Tema1.9
+          .row.mt-5
+              #t_1_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+                h2 1.9	Seguridad y Salud en el Trabajo (SST) en el control
+          p(data-aos="fade-right") La seguridad y la salud en el trabajo (SST) busca proteger la integridad física y la salud de los trabajadores dentro de la granja.
+          //- Inicio Accordion
+          .bg--img_03.mt-5
+            .row.justify-content-center        
+              .col-lg-9
+                AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+                  .row(titulo="Identificación de riesgos")
+                      p.mb-4 En la producción avícola se identifican diferentes tipos de riesgos, como los biológicos, relacionados con virus y bacterias; los físicos, asociados a temperaturas extremas; los químicos, vinculados al uso de desinfectantes; y los ergonómicos, derivados de la manipulación de cargas.                      
+                  .row(titulo="Aplicación de protocolos de control")
+                    p.mb-4 Medidas de control:
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Uso de elementos de protección personal (EPP).
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Lavado de manos. D
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Desinfección constante.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Manejo adecuado de químicos.
+                  .row(titulo="Supervisión de condiciones seguras")
+                    p.mb-4 Incluye
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Inspección de instalaciones 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Verificación de equipos 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Control del ambiente laboral 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Evaluación del cumplimiento de normas.
+                  .row(titulo="Cumplimiento normativo")
+                    p.mb-4 En Colombia, la SST en el sector avícola se rige por normas como:
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Decreto 1072 de 2015 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Resoluciones del ICA 
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        span.ms-2 Normativa del Ministerio de Trabajo.                      
+            //- Fin Accordion
 </template>
 
 <script>
